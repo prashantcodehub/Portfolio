@@ -1,0 +1,47 @@
+.landingContaner{
+    color: aliceblue;
+    background-image: url(/src/Utility/Assets/blob-scene-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    /* text-align: center; */
+    height: 100lvh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.landingText {
+    font-size: 3rem;
+    text-shadow: 0px 0px 78px aqua;
+    margin-top: 5lvh;
+    margin-bottom: 5lvh;
+    font-family: monospace;
+    text-decoration: none;
+}
+.forward-slash{
+    width: 3px;
+    height: 3rem;
+    background-color: aliceblue;
+    rotate: 40deg;
+    box-shadow: 0 0 20px 8px #008affb8;
+}
+.top{
+    position: relative;
+    left: 15px;
+}
+.bottom{
+    position: relative;
+    left: -15px;
+}
+.LandingButtonToProfile {
+    border: 2px solid whitesmoke;
+    border-radius: 10% 100% 100% 10%;
+    background: rgba(7, 7, 7, 0.209);
+    /* margin-top: 20lvh; */
+    position: relative;
+    top: 24lvh;
+    box-shadow: 0px 0px 5px 0px white;
+}
+.LinkInLanding{
+    text-decoration: none;
+}
